@@ -16,9 +16,9 @@
  */
 // write your code here
 
+var person = (name:String(),age:Int())
 
-
-
+person = (name:"Enrique",age:32)
 
 
 
@@ -29,7 +29,8 @@
 // write your code here
 
 
-
+print(person.name)
+print(person.age)
 
 
 
@@ -41,9 +42,9 @@
 // write your code here
 
 
+person.age += 1
 
-
-
+person.age
 
 
 
@@ -54,7 +55,7 @@
 
 
 
-
+print("Happy \(person.age) birthday, \(person.name)!")
 
 
 
@@ -65,7 +66,9 @@
 // write your code here
 
 
+var someone = (name:String(),age:Int())
 
+someone = ("Pablo",35)
 
 
 
@@ -77,7 +80,7 @@
 // write your code here
 
 
-
+print("\(someone.name) is \(someone.age) years old")
 
 
 
@@ -87,9 +90,9 @@
  */
 // write your code here
 
+someone.age += 1
 
-
-
+someone.age
 
 
 
@@ -99,7 +102,7 @@
 // write your code here
 
 
-
+print("Happy \(someone.age) birthday, \(someone.name)!")
 
 
 
@@ -111,8 +114,7 @@
 // write your code here
 
 
-
-
+let human = (name:String(), age:Int())
 
 
 
@@ -120,8 +122,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
-
+//no because is a constant
 
 
 
